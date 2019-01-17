@@ -12,7 +12,7 @@
     "@material-ui/icons": "latest",
     "classnames": "latest",
     "font-awesome": "^4.7.0",
-    "history": "latest",
+    "history": "^4.7.2",
     "prop-types": "latest",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
