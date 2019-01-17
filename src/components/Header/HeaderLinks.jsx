@@ -45,9 +45,19 @@ function HeaderLinks({ ...props }) {
           {/*]}*/}
         {/*/>*/}
       {/*</ListItem>*/}
+        <ListItem className={classes.listItem}>
+            <Button download
+                    href="https://github.com/tylerreece22/tylerreece/raw/master/src/assets/Resume.pdf"
+                    color="transparent"
+                    target="_blank"
+                    className={classes.navLink}
+            >
+                Projects
+            </Button>
+        </ListItem>
       <ListItem className={classes.listItem}>
         <Button download
-          href="../../assets/Resume.pdf"
+          href="https://github.com/tylerreece22/tylerreece/raw/master/src/assets/Resume.pdf"
           color="transparent"
           target="_blank"
           className={classes.navLink}
