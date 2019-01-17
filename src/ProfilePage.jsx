@@ -67,15 +67,15 @@ class ProfilePage extends React.Component {
                     <div className={classes.name}>
                       <h3 className={classes.title}>Tyler Reece</h3>
                       <h6>SOFTWARE ENGINEER</h6>
-                      <Button justIcon link className={classes.margin5}>
-                        <i className={"fab fa-twitter"} />
-                      </Button>
-                        <Button justIcon link className={classes.margin5}>
-                        <i className={"fab fa-instagram"} />
-                      </Button>
-                      <Button justIcon link className={classes.margin5}>
-                        <i className={"fab fa-facebook"} />
-                      </Button>
+                      {/*<Button justIcon link className={classes.margin5}>*/}
+                        {/*<i className={"fab fa-twitter"} />*/}
+                      {/*</Button>*/}
+                        {/*<Button justIcon link className={classes.margin5}>*/}
+                        {/*<i className={"fab fa-instagram"} />*/}
+                      {/*</Button>*/}
+                      {/*<Button justIcon link className={classes.margin5}>*/}
+                        {/*<i className={"fab fa-facebook"} />*/}
+                      {/*</Button>*/}
                     </div>
                   </div>
                 </GridItem>

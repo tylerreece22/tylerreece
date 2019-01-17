@@ -33,7 +33,7 @@ function HeaderLinks({ ...props }) {
           {/*buttonIcon={Apps}*/}
           {/*dropdownList={[*/}
             {/*<Link to="/" className={classes.dropdownLink}>*/}
-              {/*All components*/}
+                {/*All components*/}
             {/*</Link>,*/}
             {/*<a*/}
               {/*href="https://creativetimofficial.github.io/material-kit-react/#/documentation"*/}
@@ -45,16 +45,16 @@ function HeaderLinks({ ...props }) {
           {/*]}*/}
         {/*/>*/}
       {/*</ListItem>*/}
-      {/*<ListItem className={classes.listItem}>*/}
-        {/*<Button*/}
-          {/*href="https://www.creative-tim.com/product/material-kit-react"*/}
-          {/*color="transparent"*/}
-          {/*target="_blank"*/}
-          {/*className={classes.navLink}*/}
-        {/*>*/}
-          {/*<CloudDownload className={classes.icons} /> Download*/}
-        {/*</Button>*/}
-      {/*</ListItem>*/}
+      <ListItem className={classes.listItem}>
+        <Button download
+          href="../../assets/Resume.pdf"
+          color="transparent"
+          target="_blank"
+          className={classes.navLink}
+        >
+          <CloudDownload className={classes.icons} /> Download My Resume
+        </Button>
+      </ListItem>
       <ListItem className={classes.listItem}>
         <Tooltip
           id="linkedin-header"
