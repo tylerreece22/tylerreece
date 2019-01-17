@@ -6,9 +6,6 @@ import PropTypes from "prop-types";
 import classNames from "classnames";
 import { List, ListItem, withStyles } from "@material-ui/core";
 
-// @material-ui/icons
-import Favorite from "@material-ui/icons/Favorite";
-
 import footerStyle from "../../assets/jss/material-kit-react/components/footerStyle.jsx";
 
 function Footer({ ...props }) {
@@ -28,29 +25,20 @@ function Footer({ ...props }) {
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://www.creative-tim.com/"
+                href="/about"
                 className={classes.block}
                 target="_blank"
               >
-                Creative Tim
+                About
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://www.creative-tim.com/presentation"
+                href="/projects"
                 className={classes.block}
                 target="_blank"
               >
-                About us
-              </a>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="http://blog.creative-tim.com/"
-                className={classes.block}
-                target="_blank"
-              >
-                Blog
+                Projects
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
@@ -59,22 +47,13 @@ function Footer({ ...props }) {
                 className={classes.block}
                 target="_blank"
               >
-                Licenses
+                Hire Me
               </a>
             </ListItem>
           </List>
         </div>
         <div className={classes.right}>
-          &copy; {1900 + new Date().getYear()} , made with{" "}
-          <Favorite className={classes.icon} /> by{" "}
-          <a
-            href="https://www.creative-tim.com"
-            className={aClasses}
-            target="_blank"
-          >
-            Creative Tim
-          </a>{" "}
-          for a better web.
+          &copy; {1900 + new Date().getYear()}
         </div>
       </div>
     </footer>

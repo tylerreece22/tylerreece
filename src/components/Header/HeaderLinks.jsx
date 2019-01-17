@@ -22,90 +22,90 @@ function HeaderLinks({ ...props }) {
   const { classes } = props;
   return (
     <List className={classes.list}>
-      <ListItem className={classes.listItem}>
-        <CustomDropdown
-          noLiPadding
-          buttonText="Components"
-          buttonProps={{
-            className: classes.navLink,
-            color: "transparent"
-          }}
-          buttonIcon={Apps}
-          dropdownList={[
-            <Link to="/" className={classes.dropdownLink}>
-              All components
-            </Link>,
-            <a
-              href="https://creativetimofficial.github.io/material-kit-react/#/documentation"
-              target="_blank"
-              className={classes.dropdownLink}
-            >
-              Documentation
-            </a>
-          ]}
-        />
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Button
-          href="https://www.creative-tim.com/product/material-kit-react"
-          color="transparent"
-          target="_blank"
-          className={classes.navLink}
-        >
-          <CloudDownload className={classes.icons} /> Download
-        </Button>
-      </ListItem>
+      {/*<ListItem className={classes.listItem}>*/}
+        {/*<CustomDropdown*/}
+          {/*noLiPadding*/}
+          {/*buttonText="Components"*/}
+          {/*buttonProps={{*/}
+            {/*className: classes.navLink,*/}
+            {/*color: "transparent"*/}
+          {/*}}*/}
+          {/*buttonIcon={Apps}*/}
+          {/*dropdownList={[*/}
+            {/*<Link to="/" className={classes.dropdownLink}>*/}
+              {/*All components*/}
+            {/*</Link>,*/}
+            {/*<a*/}
+              {/*href="https://creativetimofficial.github.io/material-kit-react/#/documentation"*/}
+              {/*target="_blank"*/}
+              {/*className={classes.dropdownLink}*/}
+            {/*>*/}
+              {/*Documentation*/}
+            {/*</a>*/}
+          {/*]}*/}
+        {/*/>*/}
+      {/*</ListItem>*/}
+      {/*<ListItem className={classes.listItem}>*/}
+        {/*<Button*/}
+          {/*href="https://www.creative-tim.com/product/material-kit-react"*/}
+          {/*color="transparent"*/}
+          {/*target="_blank"*/}
+          {/*className={classes.navLink}*/}
+        {/*>*/}
+          {/*<CloudDownload className={classes.icons} /> Download*/}
+        {/*</Button>*/}
+      {/*</ListItem>*/}
       <ListItem className={classes.listItem}>
         <Tooltip
-          id="instagram-twitter"
-          title="Follow us on twitter"
+          id="linkedin-header"
+          title="Connect with me on LinkedIn"
           placement={window.innerWidth > 959 ? "top" : "left"}
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
-            href="https://twitter.com/CreativeTim"
+            href="https://www.linkedin.com/in/tyler-reece-66693857"
             target="_blank"
             color="transparent"
             className={classes.navLink}
           >
-            <i className={classes.socialIcons + " fab fa-twitter"} />
+            <i className={classes.socialIcons + " fab fa-linkedin"} />
           </Button>
         </Tooltip>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Tooltip
-          id="instagram-facebook"
-          title="Follow us on facebook"
+          id="github-header"
+          title="Watch me tinker"
           placement={window.innerWidth > 959 ? "top" : "left"}
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
             color="transparent"
-            href="https://www.facebook.com/CreativeTim"
+            href="https://github.com/tylerreece22"
             target="_blank"
             className={classes.navLink}
           >
-            <i className={classes.socialIcons + " fab fa-facebook"} />
+            <i className={classes.socialIcons + " fab fa-github"} />
           </Button>
         </Tooltip>
       </ListItem>
-      <ListItem className={classes.listItem}>
-        <Tooltip
-          id="instagram-tooltip"
-          title="Follow us on instagram"
-          placement={window.innerWidth > 959 ? "top" : "left"}
-          classes={{ tooltip: classes.tooltip }}
-        >
-          <Button
-            color="transparent"
-            href="https://www.instagram.com/CreativeTimOfficial"
-            target="_blank"
-            className={classes.navLink}
-          >
-            <i className={classes.socialIcons + " fab fa-instagram"} />
-          </Button>
-        </Tooltip>
-      </ListItem>
+      {/*<ListItem className={classes.listItem}>*/}
+        {/*<Tooltip*/}
+          {/*id="instagram-tooltip"*/}
+          {/*title="Follow us on instagram"*/}
+          {/*placement={window.innerWidth > 959 ? "top" : "left"}*/}
+          {/*classes={{ tooltip: classes.tooltip }}*/}
+        {/*>*/}
+          {/*<Button*/}
+            {/*color="transparent"*/}
+            {/*href="https://www.instagram.com/tylerreece22"*/}
+            {/*target="_blank"*/}
+            {/*className={classes.navLink}*/}
+          {/*>*/}
+            {/*<i className={classes.socialIcons + " fab fa-instagram"} />*/}
+          {/*</Button>*/}
+        {/*</Tooltip>*/}
+      {/*</ListItem>*/}
     </List>
   );
 }
