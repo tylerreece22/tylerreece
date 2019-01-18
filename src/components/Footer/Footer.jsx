@@ -4,7 +4,7 @@ import React from "react";
 import PropTypes from "prop-types";
 // nodejs library that concatenates classes
 import classNames from "classnames";
-import { List, ListItem, withStyles } from "@material-ui/core";
+import {List, withStyles} from "@material-ui/core";
 
 import footerStyle from "../../assets/jss/material-kit-react/components/footerStyle.jsx";
 
@@ -23,33 +23,33 @@ function Footer({ ...props }) {
       <div className={classes.container}>
         <div className={classes.left}>
           <List className={classes.list}>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="/about"
-                className={classes.block}
-                target="_blank"
-              >
-                About
-              </a>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="/projects"
-                className={classes.block}
-                target="_blank"
-              >
-                Projects
-              </a>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.creative-tim.com/license"
-                className={classes.block}
-                target="_blank"
-              >
-                Hire Me
-              </a>
-            </ListItem>
+              {/*<ListItem className={classes.inlineBlock}>*/}
+              {/*<a*/}
+              {/*href="/about"*/}
+              {/*className={classes.block}*/}
+              {/*target="_blank"*/}
+              {/*>*/}
+              {/*About*/}
+              {/*</a>*/}
+              {/*</ListItem>*/}
+              {/*<ListItem className={classes.inlineBlock}>*/}
+              {/*<a*/}
+              {/*href="/projects"*/}
+              {/*className={classes.block}*/}
+              {/*target="_blank"*/}
+              {/*>*/}
+              {/*Projects*/}
+              {/*</a>*/}
+              {/*</ListItem>*/}
+              {/*<ListItem className={classes.inlineBlock}>*/}
+              {/*<a*/}
+              {/*href="https://www.creative-tim.com/license"*/}
+              {/*className={classes.block}*/}
+              {/*target="_blank"*/}
+              {/*>*/}
+              {/*Hire Me*/}
+              {/*</a>*/}
+              {/*</ListItem>*/}
           </List>
         </div>
         <div className={classes.right}>

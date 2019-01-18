@@ -1,19 +1,14 @@
 /*eslint-disable*/
 import React from "react";
 // react components for routing our app without refresh
-import { Link } from "react-router-dom";
-
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import Tooltip from "@material-ui/core/Tooltip";
-
 // @material-ui/icons
-import { Apps, CloudDownload } from "@material-ui/icons";
-
+import {CloudDownload} from "@material-ui/icons";
 // core components
-import CustomDropdown from "../../components/CustomDropdown/CustomDropdown.jsx";
 import Button from "../../components/CustomButtons/Button.jsx";
 
 import headerLinksStyle from "../../assets/jss/material-kit-react/components/headerLinksStyle.jsx";
@@ -46,10 +41,18 @@ function HeaderLinks({ ...props }) {
         {/*/>*/}
       {/*</ListItem>*/}
         <ListItem className={classes.listItem}>
-            <Button download
-                    href="https://github.com/tylerreece22/tylerreece/raw/master/src/assets/Resume.pdf"
+            <Button
+                href="/blog"
+                color="transparent"
+                className={classes.navLink}
+            >
+                Blog
+            </Button>
+        </ListItem>
+        <ListItem className={classes.listItem}>
+            <Button
+                href="/projects"
                     color="transparent"
-                    target="_blank"
                     className={classes.navLink}
             >
                 Projects
@@ -59,7 +62,6 @@ function HeaderLinks({ ...props }) {
         <Button download
           href="https://github.com/tylerreece22/tylerreece/raw/master/src/assets/Resume.pdf"
           color="transparent"
-          target="_blank"
           className={classes.navLink}
         >
           <CloudDownload className={classes.icons} /> Download My Resume
