@@ -22,7 +22,6 @@ class ProfilePage extends React.Component {
       classes.imgRoundedCircle,
       classes.imgFluid
     );
-    const navImageClasses = classNames(classes.imgRounded, classes.imgGallery);
     return (
       <div>
         <Header
