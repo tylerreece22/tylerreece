@@ -13,8 +13,18 @@ import Parallax from "./components/Parallax/Parallax.jsx";
 import profile from "./assets/img/profile-pic.jpg";
 
 import profilePageStyle from "./assets/jss/material-kit-react/views/profilePage.jsx";
+import NavPills from "./components/NavPills/NavPills";
+import {AccountBox} from "@material-ui/icons";
 
 class ProfilePage extends React.Component {
+    calculateYears = () => {
+        let year=1000*60*60*24*365;
+        let startingDate = new Date(2015, 2, 1).getTime();
+        let today = new Date().getTime();
+        let yearsDeveloping = today - startingDate;
+        return Math.round(yearsDeveloping/year);
+    };
+
   render() {
     const { classes, ...rest } = this.props;
     const imageClasses = classNames(
@@ -51,11 +61,102 @@ class ProfilePage extends React.Component {
                   </div>
                 </GridItem>
               </GridContainer>
-              <div className={classes.description}>
-                <p>
-                  I am just a curious guy who loves being challenged.
-                </p>
-              </div>
+                <GridContainer justify="center">
+                    <GridItem xs={12} sm={12} md={8} className={classes.navWrapper}>
+                        <NavPills
+                            alignCenter
+                            color="primary"
+                            tabs={[
+                                {
+                                    tabButton: "About",
+                                    tabIcon: AccountBox,
+                                    tabContent: (
+                                        <GridContainer justify="center">
+                                            <GridItem >
+                                                <div className={classes.description}>
+                                                    <p>
+                                                        I have been developing for about {this.calculateYears()} years.
+
+                                                        <br/>
+
+                                                        My goal is to learn and be challenged on a daily basis doing something
+                                                        I truly enjoy while enabling me to support my family. Simple, development
+                                                        in all of its glory. I have ventured off the beaten path many times in this
+                                                        industry only to find something more I enjoy about it. There are no limits.
+                                                    </p>
+                                                </div>
+                                            </GridItem>
+                                        </GridContainer>
+                                    )
+                                },
+                                {
+                                    tabButton: "Work",
+                                    tabIcon: AccountBox,
+                                    tabContent: (
+                                        <GridContainer justify="center">
+                                            <GridItem xs={12} sm={12} md={4}>
+                                                <img
+                                                    alt="..."
+                                                    src={""}
+                                                />
+                                                <img
+                                                    alt="..."
+                                                    src={""}
+                                                />
+                                                <img
+                                                    alt="..."
+                                                    src={""}
+                                                />
+                                            </GridItem>
+                                            <GridItem xs={12} sm={12} md={4}>
+                                                <img
+                                                    alt="..."
+                                                    src={""}
+                                                />
+                                                <img
+                                                    alt="..."
+                                                    src={""}
+                                                />
+                                            </GridItem>
+                                        </GridContainer>
+                                    )
+                                },
+                                {
+                                    tabButton: "Favorite",
+                                    tabIcon: AccountBox,
+                                    tabContent: (
+                                        <GridContainer justify="center">
+                                            <GridItem xs={12} sm={12} md={4}>
+                                                <img
+                                                    alt="..."
+                                                    src={""}
+                                                />
+                                                <img
+                                                    alt="..."
+                                                    src={""}
+                                                />
+                                            </GridItem>
+                                            <GridItem xs={12} sm={12} md={4}>
+                                                <img
+                                                    alt="..."
+                                                    src={""}
+                                                />
+                                                <img
+                                                    alt="..."
+                                                    src={""}
+                                                />
+                                                <img
+                                                    alt="..."
+                                                    src={""}
+                                                />
+                                            </GridItem>
+                                        </GridContainer>
+                                    )
+                                }
+                            ]}
+                        />
+                    </GridItem>
+                </GridContainer>
             </div>
         </div>
         <Footer />
