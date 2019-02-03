@@ -40,24 +40,15 @@ function HeaderLinks({ ...props }) {
           {/*]}*/}
         {/*/>*/}
       {/*</ListItem>*/}
-        <ListItem className={classes.listItem}>
-            <Button
-                href="/blog"
-                color="transparent"
-                className={classes.navLink}
-            >
-                Blog
-            </Button>
-        </ListItem>
-        <ListItem className={classes.listItem}>
-            <Button
-                href="/projects"
-                    color="transparent"
-                    className={classes.navLink}
-            >
-                Projects
-            </Button>
-        </ListItem>
+        {/*<ListItem className={classes.listItem}>*/}
+            {/*<Button*/}
+                {/*href="/projects"*/}
+                    {/*color="transparent"*/}
+                    {/*className={classes.navLink}*/}
+            {/*>*/}
+                {/*Projects*/}
+            {/*</Button>*/}
+        {/*</ListItem>*/}
       <ListItem className={classes.listItem}>
         <Button download
           href="https://github.com/tylerreece22/tylerreece/raw/master/src/assets/Resume.pdf"
@@ -84,23 +75,23 @@ function HeaderLinks({ ...props }) {
           </Button>
         </Tooltip>
       </ListItem>
-      <ListItem className={classes.listItem}>
-        <Tooltip
-          id="github-header"
-          title="Watch me tinker"
-          placement={window.innerWidth > 959 ? "top" : "left"}
-          classes={{ tooltip: classes.tooltip }}
-        >
-          <Button
-            color="transparent"
-            href="https://github.com/tylerreece22"
-            target="_blank"
-            className={classes.navLink}
-          >
-            <i className={classes.socialIcons + " fab fa-github"} />
-          </Button>
-        </Tooltip>
-      </ListItem>
+        <ListItem className={classes.listItem}>
+            <Tooltip
+                id="github-header"
+                title="Watch me do some coding stuff"
+                placement={window.innerWidth > 959 ? "top" : "left"}
+                classes={{ tooltip: classes.tooltip }}
+            >
+                <Button
+                    href="https://github.com/tylerreece22"
+                    target="_blank"
+                    color="transparent"
+                    className={classes.navLink}
+                >
+                    <i className={classes.socialIcons + " fab fa-github"} />
+                </Button>
+            </Tooltip>
+        </ListItem>
       {/*<ListItem className={classes.listItem}>*/}
         {/*<Tooltip*/}
           {/*id="instagram-tooltip"*/}
