@@ -13,7 +13,7 @@ class App extends Component {
         return (
             <>
                 <Router history={hist}>
-                    <BrowserRouter basename="/">
+                    <BrowserRouter basename="/tylerreece">
                         <Switch>
                             {indexRoutes.map((prop, key) => {
                                 return <Route path={prop.path} key={key} component={prop.component}/>;
