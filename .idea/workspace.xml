@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c95cae18-ff0d-4a8b-aa24-13e28949b867" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -209,13 +208,13 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="178" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.808@0.23.1440.808" timestamp="1577410296473" />
-    <state x="372" y="203" width="683" height="486" key="find.popup" timestamp="1577412654356">
+    <state x="372" y="203" width="683" height="486" key="find.popup" timestamp="1577414294444">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
-    <state x="372" y="203" width="683" height="486" key="find.popup/0.23.1440.808@0.23.1440.808" timestamp="1577412654356" />
-    <state x="379" y="155" width="670" height="676" key="search.everywhere.popup" timestamp="1577409239440">
+    <state x="372" y="203" width="683" height="486" key="find.popup/0.23.1440.808@0.23.1440.808" timestamp="1577414294444" />
+    <state x="379" y="155" width="670" height="676" key="search.everywhere.popup" timestamp="1577413955884">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
-    <state x="379" y="155" width="670" height="676" key="search.everywhere.popup/0.23.1440.808@0.23.1440.808" timestamp="1577409239440" />
+    <state x="379" y="155" width="670" height="676" key="search.everywhere.popup/0.23.1440.808@0.23.1440.808" timestamp="1577413955884" />
   </component>
 </project>
