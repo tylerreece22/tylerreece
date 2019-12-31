@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c95cae18-ff0d-4a8b-aa24-13e28949b867" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,30 +31,34 @@
       </map>
     </option>
   </component>
-  <component name="PackageJsonUpdateNotifier">
-    <dismissed value="$PROJECT_DIR$/package.json" />
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectId" id="1VjQczIV22iDG7G7AaQzUQVTuph" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548725679176" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tylerreece" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="C:\Users\Tyler Reece\tylerreece\node_modules\eslint" />
+    <property name="node.js.selected.package.eslint" value="C:/Users/Tyler Reece/tylerreece/node_modules/eslint" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -145,6 +151,7 @@
       <workItem from="1547946373066" duration="762000" />
       <workItem from="1548023416303" duration="1213000" />
       <workItem from="1548117837180" duration="683000" />
+      <workItem from="1577764109593" duration="542000" />
     </task>
     <task id="LOCAL-00001" summary="Start with material-ui moving to authority website for work">
       <created>1546394742802</created>
@@ -215,14 +222,30 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="114" y="162" width="1200" height="568" key="DiffContextDialog/0.23.1440.808@0.23.1440.808" timestamp="1577762430984" />
-    <state x="372" y="203" width="683" height="486" key="find.popup" timestamp="1577757850958">
+    <state width="1358" height="194" key="GridCell.Tab.0.bottom" timestamp="1577765276479">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
-    <state x="372" y="203" width="683" height="486" key="find.popup/0.23.1440.808@0.23.1440.808" timestamp="1577757850958" />
-    <state x="379" y="155" width="670" height="676" key="search.everywhere.popup" timestamp="1577763453978">
+    <state width="1358" height="194" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1577765276479" />
+    <state width="1358" height="194" key="GridCell.Tab.0.center" timestamp="1577765276478">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
-    <state x="379" y="155" width="670" height="676" key="search.everywhere.popup/0.23.1440.808@0.23.1440.808" timestamp="1577763453978" />
+    <state width="1358" height="194" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1577765276478" />
+    <state width="1358" height="194" key="GridCell.Tab.0.left" timestamp="1577765276477">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state width="1358" height="194" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1577765276477" />
+    <state width="1358" height="194" key="GridCell.Tab.0.right" timestamp="1577765276479">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state width="1358" height="194" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1577765276479" />
+    <state x="372" y="203" width="683" height="486" key="find.popup" timestamp="1577765422582">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="372" y="203" width="683" height="486" key="find.popup/0.23.1440.808@0.23.1440.808" timestamp="1577765422582" />
+    <state x="379" y="155" width="670" height="676" key="search.everywhere.popup" timestamp="1577764148987">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="379" y="155" width="670" height="676" key="search.everywhere.popup/0.23.1440.808@0.23.1440.808" timestamp="1577764148987" />
     <state x="444" y="335" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1577655841576">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
