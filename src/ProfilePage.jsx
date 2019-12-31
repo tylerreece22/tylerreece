@@ -21,6 +21,9 @@ import ProductSection from "./Sections/ProductSection";
 import TeamSection from "./Sections/TeamSection";
 import WorkSection from "./Sections/WorkSection";
 import Button from "./components/CustomButtons/Button";
+import Info from "./components/Typography/Info";
+import FormControlLabel from "@material-ui/core/FormControlLabel";
+import Switch from "@material-ui/core/Switch";
 
 class ProfilePage extends React.Component {
     calculateYears = () => {
@@ -29,6 +32,15 @@ class ProfilePage extends React.Component {
         let today = new Date().getTime();
         let yearsDeveloping = today - startingDate;
         return Math.round(yearsDeveloping / year);
+    };
+
+    state = {
+        checked: false
+    }
+
+    // Event is passing target as null but the wrapped function still allows dynamic boolean flipping
+    handleChange = name => event => {
+        this.setState(state => ({...state, [name]: !state[name]}));
     };
 
     render() {
@@ -62,7 +74,7 @@ class ProfilePage extends React.Component {
                                     </div>
                                     <div className={classes.name}>
                                         <h3 className={classes.title}>Tyler Reece</h3>
-                                        <h6>FULL STACK SOFTWARE ENGINEER</h6>
+                                        <h6>SOFTWARE ENGINEER</h6>
                                     </div>
                                 </div>
                             </GridItem>
@@ -75,32 +87,60 @@ class ProfilePage extends React.Component {
                                     tabButton: "Core Power Levels",
                                     tabIcon: Assessment,
                                     tabContent: (
-                                        <GridContainer justify="center">
-                                            <GridItem md={8}>
-                                                <PowerLevel label={"Java"} color="primary" variant="determinate"
-                                                            powerLevel={91}/>
-                                                <PowerLevel label={"NodeJS"} color="primary" variant="determinate"
-                                                            powerLevel={93}/>
-                                                <PowerLevel label={"Spring"} color="primary" variant="determinate"
-                                                            powerLevel={84}/>
-                                                <PowerLevel label={"JavaScript"} color="primary" variant="determinate"
-                                                            powerLevel={90}/>
-                                                <PowerLevel label={"React"} color="primary" variant="determinate"
-                                                            powerLevel={76}/>
-                                                <PowerLevel label={"Flutter"} color="primary" variant="determinate"
-                                                            powerLevel={70}/>
-                                                <PowerLevel label={"Git"} color="primary" variant="determinate"
-                                                            powerLevel={90}/>
-                                                <PowerLevel label={"Postgres"} color="primary" variant="determinate"
-                                                            powerLevel={73}/>
-                                                <PowerLevel label={"Docker"} color="primary" variant="determinate"
-                                                            powerLevel={69}/>
-                                                <PowerLevel label={"Kubernetes"} color="primary" variant="determinate"
-                                                            powerLevel={55}/>
-                                                <PowerLevel label={"Python"} color="primary" variant="determinate"
-                                                            powerLevel={60}/>
-                                            </GridItem>
-                                        </GridContainer>
+                                        <>
+                                            <GridContainer justify="center">
+                                                <div style={{paddingBottom: '20px'}}>
+                                                    <FormControlLabel
+                                                        control={
+                                                            <Switch
+                                                                checked={this.state.checked}
+                                                                onChange={this.handleChange('checked')}
+                                                                value="checked"
+                                                                color="primary"
+                                                            />
+                                                        }
+                                                        label={this.state.checked ?
+                                                            <Info>Hello there fellow programmer!</Info> :
+                                                            <Info>Know the code words?</Info>}
+                                                    />
+                                                </div>
+                                            </GridContainer>
+                                            <GridContainer justify="center">
+                                                {this.state.checked ? <GridItem md={8}>
+                                                    <PowerLevel label={"Java"} color="primary" variant="determinate"
+                                                                powerLevel={91} key={1}/>
+                                                    <PowerLevel label={"NodeJS"} color="primary" variant="determinate"
+                                                                powerLevel={93} key={2}/>
+                                                    <PowerLevel label={"Spring"} color="primary" variant="determinate"
+                                                                powerLevel={84} key={3}/>
+                                                    <PowerLevel label={"JavaScript"} color="primary"
+                                                                variant="determinate"
+                                                                powerLevel={90}/>
+                                                    <PowerLevel label={"React"} color="primary" variant="determinate"
+                                                                powerLevel={76}/>
+                                                    <PowerLevel label={"Flutter"} color="primary" variant="determinate"
+                                                                powerLevel={70}/>
+                                                    <PowerLevel label={"Git"} color="primary" variant="determinate"
+                                                                powerLevel={90}/>
+                                                    <PowerLevel label={"Postgres"} color="primary" variant="determinate"
+                                                                powerLevel={73}/>
+                                                    <PowerLevel label={"Docker"} color="primary" variant="determinate"
+                                                                powerLevel={69}/>
+                                                    <PowerLevel label={"Kubernetes"} color="primary"
+                                                                variant="determinate"
+                                                                powerLevel={55}/>
+                                                    <PowerLevel label={"Python"} color="primary" variant="determinate"
+                                                                powerLevel={60}/>
+                                                </GridItem> : <GridItem md={8}>
+                                                    <PowerLevel label={"Servers/Databases"} color="primary"
+                                                                variant="determinate" powerLevel={91}/>
+                                                    <PowerLevel label={"Websites"} color="primary" variant="determinate"
+                                                                powerLevel={83}/>
+                                                    <PowerLevel label={"Mobile Apps"} color="primary"
+                                                                variant="determinate" powerLevel={70}/>
+                                                </GridItem>}
+                                            </GridContainer>
+                                        </>
                                     )
                                 },
                                 {
