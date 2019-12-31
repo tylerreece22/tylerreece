@@ -6,7 +6,6 @@
       <change beforePath="$PROJECT_DIR$/src/assets/jss/material-kit-react/components/navPillsStyle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/components/navPillsStyle.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/core/_misc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/core/_misc.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/material-kit-react.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/material-kit-react.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +62,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -85,8 +85,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/tylerreece" />
+      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="C:\Users\Tyler Reece\tylerreece\src\constants" />
       <recent name="C:\Users\Tyler Reece\tylerreece\src\assets" />
     </key>
@@ -235,10 +235,10 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="178" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.808@0.23.1440.808" timestamp="1577410296473" />
-    <state x="114" y="162" width="1200" height="568" key="DiffContextDialog" timestamp="1577762430984">
+    <state x="114" y="162" width="1200" height="568" key="DiffContextDialog" timestamp="1577770748296">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
-    <state x="114" y="162" width="1200" height="568" key="DiffContextDialog/0.23.1440.808@0.23.1440.808" timestamp="1577762430984" />
+    <state x="114" y="162" width="1200" height="568" key="DiffContextDialog/0.23.1440.808@0.23.1440.808" timestamp="1577770748296" />
     <state width="1358" height="194" key="GridCell.Tab.0.bottom" timestamp="1577765276479">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
@@ -255,10 +255,10 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1358" height="194" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1577765276479" />
-    <state x="372" y="203" width="683" height="486" key="find.popup" timestamp="1577769662282">
+    <state x="372" y="203" width="683" height="486" key="find.popup" timestamp="1577770398207">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
-    <state x="372" y="203" width="683" height="486" key="find.popup/0.23.1440.808@0.23.1440.808" timestamp="1577769662282" />
+    <state x="372" y="203" width="683" height="486" key="find.popup/0.23.1440.808@0.23.1440.808" timestamp="1577770398207" />
     <state x="379" y="155" width="670" height="676" key="search.everywhere.popup" timestamp="1577769063871">
       <screen x="0" y="23" width="1440" height="808" />
     </state>

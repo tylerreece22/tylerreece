@@ -12,19 +12,19 @@ const navPillsStyle = theme => ({
     marginTop: "20px",
     paddingLeft: "0",
     marginBottom: "0",
-    // overflow: "visible"
+    overflow: "visible"
   },
   flexContainer: {
     [theme.breakpoints.down("xs")]: {
       display: "flex",
-      flexWrap: "wrap"
+      // flexWrap: "wrap"
     }
   },
   displayNone: {
     display: "none !important"
   },
   fixed: {
-    // overflowX: "visible"
+    overflowX: "visible"
   },
   horizontalDisplay: {
     display: "block"
