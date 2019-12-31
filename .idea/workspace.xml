@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c95cae18-ff0d-4a8b-aa24-13e28949b867" name="Default Changelist" comment="" />
+    <list default="true" id="c95cae18-ff0d-4a8b-aa24-13e28949b867" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/CustomLinearProgress.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PowerLevel.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LandingPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/LandingPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProfilePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProfilePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sections/ProductSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sections/ProductSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sections/WorkSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sections/WorkSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-kit-react.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-kit-react/components/navPillsStyle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/components/navPillsStyle.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blogging/Blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/blogging/Blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Badge/Badge.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Badge.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Clearfix/Clearfix.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Clearfix.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CustomDropdown/CustomDropdown.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CustomDropdown.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CustomInput/CustomInput.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CustomInput.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CustomLinearProgress/CustomLinearProgress.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CustomTabs/CustomTabs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CustomTabs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderLinks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderLinks.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/InfoArea/InfoArea.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InfoArea.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavPills/NavPills.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavPills.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pagination/Pagination.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pagination.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Parallax/Parallax.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Parallax.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Snackbar/SnackbarContent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SnackbarContent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/index.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,10 +68,11 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548725679176" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Advisar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tylerreece" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -55,19 +84,21 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/tylerreece" />
       <recent name="C:\Users\Tyler Reece\tylerreece\src\constants" />
       <recent name="C:\Users\Tyler Reece\tylerreece\src\assets" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tylerreece" />
       <recent name="C:\Users\Tyler Reece\tylerreece\src\Blogging" />
       <recent name="C:\Users\Tyler Reece\tylerreece\public" />
       <recent name="C:\Users\Tyler Reece\tylerreece\src" />
       <recent name="C:\Users\Tyler Reece\tylerreece\src\assets\img" />
-      <recent name="C:\Users\Tyler Reece\tylerreece\src\components" />
     </key>
   </component>
   <component name="RunManager">
@@ -206,13 +237,21 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="178" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.808@0.23.1440.808" timestamp="1577410296473" />
-    <state x="372" y="203" width="683" height="486" key="find.popup" timestamp="1577414294444">
+    <state x="114" y="162" width="1200" height="568" key="DiffContextDialog" timestamp="1577760040835">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
-    <state x="372" y="203" width="683" height="486" key="find.popup/0.23.1440.808@0.23.1440.808" timestamp="1577414294444" />
-    <state x="379" y="155" width="670" height="676" key="search.everywhere.popup" timestamp="1577413955884">
+    <state x="114" y="162" width="1200" height="568" key="DiffContextDialog/0.23.1440.808@0.23.1440.808" timestamp="1577760040835" />
+    <state x="372" y="203" width="683" height="486" key="find.popup" timestamp="1577757850958">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
-    <state x="379" y="155" width="670" height="676" key="search.everywhere.popup/0.23.1440.808@0.23.1440.808" timestamp="1577413955884" />
+    <state x="372" y="203" width="683" height="486" key="find.popup/0.23.1440.808@0.23.1440.808" timestamp="1577757850958" />
+    <state x="379" y="155" width="670" height="676" key="search.everywhere.popup" timestamp="1577758874741">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="379" y="155" width="670" height="676" key="search.everywhere.popup/0.23.1440.808@0.23.1440.808" timestamp="1577758874741" />
+    <state x="444" y="335" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1577655841576">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="444" y="335" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.23.1440.808@0.23.1440.808" timestamp="1577655841576" />
   </component>
 </project>

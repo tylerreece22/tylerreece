@@ -81,7 +81,7 @@ const navPillsStyle = theme => ({
       color: "#FFFFFF",
       backgroundColor: primaryColor,
       boxShadow:
-        "0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(156, 39, 176, 0.4)"
+          "0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(156, 39, 176, 0.4)"
     }
   },
   info: {
@@ -89,7 +89,7 @@ const navPillsStyle = theme => ({
       color: "#FFFFFF",
       backgroundColor: infoColor,
       boxShadow:
-        "0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(76, 175, 80, 0.4)"
+          "0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(76, 175, 80, 0.4)"
     }
   },
   success: {
@@ -97,7 +97,7 @@ const navPillsStyle = theme => ({
       color: "#FFFFFF",
       backgroundColor: successColor,
       boxShadow:
-        "0 2px 2px 0 rgba(76, 175, 80, 0.14), 0 3px 1px -2px rgba(76, 175, 80, 0.2), 0 1px 5px 0 rgba(76, 175, 80, 0.12)"
+          "0 2px 2px 0 rgba(76, 175, 80, 0.14), 0 3px 1px -2px rgba(76, 175, 80, 0.2), 0 1px 5px 0 rgba(76, 175, 80, 0.12)"
     }
   },
   warning: {
@@ -105,7 +105,7 @@ const navPillsStyle = theme => ({
       color: "#FFFFFF",
       backgroundColor: warningColor,
       boxShadow:
-        "0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(255, 152, 0, 0.4)"
+          "0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(255, 152, 0, 0.4)"
     }
   },
   danger: {
@@ -113,7 +113,7 @@ const navPillsStyle = theme => ({
       color: "#FFFFFF",
       backgroundColor: dangerColor,
       boxShadow:
-        "0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(255, 152, 0, 0.4)"
+          "0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(255, 152, 0, 0.4)"
     }
   },
   rose: {
@@ -121,7 +121,7 @@ const navPillsStyle = theme => ({
       color: "#FFFFFF",
       backgroundColor: roseColor,
       boxShadow:
-        "0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(233, 30, 99, 0.4)"
+          "0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(233, 30, 99, 0.4)"
     }
   },
   alignCenter: {

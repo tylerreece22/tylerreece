@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 import classNames from "classnames";
 import {List, withStyles} from "@material-ui/core";
 
-import footerStyle from "../../assets/jss/material-kit-react/components/footerStyle.jsx";
+import footerStyle from "../assets/jss/material-kit-react/components/footerStyle.jsx";
 
 function Footer({ ...props }) {
   const { classes, whiteFont } = props;
