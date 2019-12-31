@@ -9,7 +9,6 @@ const hist = createBrowserHistory();
 
 class App extends Component {
     render() {
-        console.log(this.props.location);
         return (
             <>
                 <Router history={hist}>

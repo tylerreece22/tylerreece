@@ -10,8 +10,6 @@ import CustomLinearProgress from "./CustomLinearProgress";
 import Primary from "./Typography/Primary";
 import GridContainer from "./Grid/GridContainer";
 import GridItem from "./Grid/GridItem";
-import Info from "./Typography/Info";
-import Muted from "./Typography/Muted";
 
 class PowerLevel extends React.Component {
     state = {
@@ -37,11 +35,11 @@ class PowerLevel extends React.Component {
         return (
             <>
                 <GridContainer justify="center">
-                    <GridItem md={2}>
+                    <GridItem md={12}>
                         <Primary>{label}</Primary>
                     </GridItem>
-                    <GridItem md={8}>
-                        <CustomLinearProgress color={color} variant="determinate" value={this.state.completed}/>
+                    <GridItem md={12}>
+                        <CustomLinearProgress color={color || "primary"} variant="determinate" value={this.state.completed}/>
                     </GridItem>
                 </GridContainer>
             </>
