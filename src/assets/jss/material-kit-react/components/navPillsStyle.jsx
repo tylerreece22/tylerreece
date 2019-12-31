@@ -12,7 +12,7 @@ const navPillsStyle = theme => ({
     marginTop: "20px",
     paddingLeft: "0",
     marginBottom: "0",
-    overflow: "visible !important"
+    // overflow: "visible"
   },
   flexContainer: {
     [theme.breakpoints.down("xs")]: {
@@ -24,7 +24,7 @@ const navPillsStyle = theme => ({
     display: "none !important"
   },
   fixed: {
-    overflowX: "visible"
+    // overflowX: "visible"
   },
   horizontalDisplay: {
     display: "block"
