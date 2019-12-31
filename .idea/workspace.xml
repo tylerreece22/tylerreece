@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c95cae18-ff0d-4a8b-aa24-13e28949b867" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sections/TeamSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sections/TeamSection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blogging/Blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/blogging/Blog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +48,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548725679176" />
@@ -67,18 +67,18 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/tylerreece" />
+      <recent name="C:\Users\Tyler Reece\tylerreece\src\constants" />
+      <recent name="C:\Users\Tyler Reece\tylerreece\src\assets" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tylerreece" />
       <recent name="C:\Users\Tyler Reece\tylerreece\src\Blogging" />
       <recent name="C:\Users\Tyler Reece\tylerreece\public" />
       <recent name="C:\Users\Tyler Reece\tylerreece\src" />
       <recent name="C:\Users\Tyler Reece\tylerreece\src\assets\img" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/tylerreece" />
-      <recent name="C:\Users\Tyler Reece\tylerreece\src\constants" />
-      <recent name="C:\Users\Tyler Reece\tylerreece\src\assets" />
     </key>
   </component>
   <component name="RunManager">
