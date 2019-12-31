@@ -28,7 +28,6 @@
       <change beforePath="$PROJECT_DIR$/src/components/Pagination/Pagination.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pagination.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Parallax/Parallax.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Parallax.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Snackbar/SnackbarContent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SnackbarContent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,10 +236,10 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="178" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.808@0.23.1440.808" timestamp="1577410296473" />
-    <state x="114" y="162" width="1200" height="568" key="DiffContextDialog" timestamp="1577760040835">
+    <state x="114" y="162" width="1200" height="568" key="DiffContextDialog" timestamp="1577762430984">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
-    <state x="114" y="162" width="1200" height="568" key="DiffContextDialog/0.23.1440.808@0.23.1440.808" timestamp="1577760040835" />
+    <state x="114" y="162" width="1200" height="568" key="DiffContextDialog/0.23.1440.808@0.23.1440.808" timestamp="1577762430984" />
     <state x="372" y="203" width="683" height="486" key="find.popup" timestamp="1577757850958">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
