@@ -144,9 +144,8 @@ class ProfilePage extends React.Component {
                                                     </h4>
                                                     <h4>
                                                         Aside from development my life revolves around my wife, son, and
-                                                        daughter and I like to play as many video games as possible
-                                                        according to
-                                                        the time my schedule and my previously mentioned passions allow.
+                                                        daughter. Oh yes and, as much as the previously mentioned passions allow,
+                                                        I like to play as many video games as possible. 😆
                                                     </h4>
                                                 </div>
                                             </GridItem>
@@ -160,7 +159,7 @@ class ProfilePage extends React.Component {
                                         <div className={classes.description}>
                                             <h4 className={classes.description}>
                                                 I'm your guy! Drop me a few lines about how you would like to
-                                                collaborate. I will respond get back to you in a couple
+                                                collaborate. I will respond to you in a couple
                                                 of hours and we can work something out.
                                             </h4>
                                             <div style={{paddingTop: '10%'}}>
