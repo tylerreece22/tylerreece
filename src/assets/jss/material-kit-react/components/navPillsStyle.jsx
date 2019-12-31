@@ -17,7 +17,7 @@ const navPillsStyle = theme => ({
   flexContainer: {
     [theme.breakpoints.down("xs")]: {
       display: "flex",
-      // flexWrap: "wrap"
+      flexWrap: "wrap"
     }
   },
   displayNone: {
