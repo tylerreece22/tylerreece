@@ -4,7 +4,7 @@ I deploy my latest functional build to Github Pages which will always be availab
 ## Deployment Process
 1. Run ```yarn deploy```
 2. Switch to ```gh-pages``` branch
-3. Move ./static and ./manifest.json to ./tylerreece
+3. Move ./static ./favicon.ico, and ./manifest.json to ./tylerreece
 4. Push code
-5. Reset custom DN to tylerreece.tech
+5. Reset custom DN to tylerreece.tech from repo settings
 6. Wait for refresh and it will show up 
