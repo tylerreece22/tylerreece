@@ -11,7 +11,7 @@ import HeaderLinks from "./components/Header/HeaderLinks.jsx";
 import Parallax from "./components/Parallax.jsx";
 import PowerLevel from "./components/PowerLevel.jsx";
 
-import profile from "./assets/img/profile-pic.jpg";
+import profile from "./assets/img/profile-pic.png";
 
 import profilePageStyle from "./assets/jss/material-kit-react/views/profilePage.jsx";
 import NavPills from "./components/NavPills";
@@ -43,7 +43,7 @@ class ProfilePage extends React.Component {
     render() {
         const {classes, ...rest} = this.props;
         const imageClasses = classNames(
-            classes.imgRaised,
+            classes.imgBrighten,
             classes.imgRoundedCircle,
             classes.imgFluid
         );
@@ -67,7 +67,7 @@ class ProfilePage extends React.Component {
                             <GridItem xs={12} sm={12} md={6}>
                                 <div className={classes.profile}>
                                     <div>
-                                        <img src={profile} alt="..." className={imageClasses}/>
+                                        <img src={profile} alt="..." style={{maxWidth: '190px'}} className={imageClasses}/>
                                     </div>
                                     <div className={classes.name}>
                                         <h3 className={classes.title}>Tyler Reece</h3>
@@ -165,7 +165,7 @@ class ProfilePage extends React.Component {
                                             <div style={{paddingTop: '10%'}}>
                                                 <Button color="primary"
                                                         onClick={() => window.location.href = "mailto:me@tylerreece.tech?subject=I have work for you!"}>
-                                                    Drop Lines
+                                                   Email Me
                                                 </Button>
                                             </div>
                                         </div>
