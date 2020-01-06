@@ -15,7 +15,7 @@ mv static favicon.ico manifest.json ./tylerreece
 #echo tylerreece.tech > CNAME
 
 echo --- Committing files ---
-git add tylerreece/ static/ favicon.ico manifest.json CNAME
+git add tylerreece/ static/ favicon.ico manifest.json
 git commit -m "Moved files to ./tylerreece"
 
 echo --- Pushing new files to gh-pages ---
