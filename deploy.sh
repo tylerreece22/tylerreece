@@ -10,9 +10,9 @@ rm -rf build
 mkdir tylerreece
 mv static favicon.ico manifest.json ./tylerreece
 
-echo --- Adding CNAME ---
-touch CNAME
-echo tylerreece.tech > CNAME
+#echo --- Adding CNAME ---
+#touch CNAME
+#echo tylerreece.tech > CNAME
 
 echo --- Committing files ---
 git add tylerreece/ static/ favicon.ico manifest.json CNAME
