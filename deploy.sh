@@ -15,7 +15,7 @@ touch CNAME
 echo tylerreece.tech > CNAME
 
 echo --- Committing files ---
-git add tylerreece/ static/ favicon.ico manifest.json
+git add tylerreece/ static/ favicon.ico manifest.json CNAME
 git commit -m "Moved files to ./tylerreece"
 
 echo --- Pushing new files to gh-pages ---
