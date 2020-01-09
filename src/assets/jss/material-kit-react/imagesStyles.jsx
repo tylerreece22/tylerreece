@@ -10,7 +10,7 @@ const imagesStyles = {
     borderRadius: "50% !important"
   },
   imgBrighten: {
-    filter: "brightness(170%)"
+    filter: "brightness(150%)"
   },
   imgRaised: {
     boxShadow:
