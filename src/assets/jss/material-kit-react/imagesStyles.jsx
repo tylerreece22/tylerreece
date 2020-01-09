@@ -7,10 +7,10 @@ const imagesStyles = {
     borderRadius: "6px !important"
   },
   imgRoundedCircle: {
-    borderRadius: "27% !important"
+    borderRadius: "50% !important"
   },
   imgBrighten: {
-    filter: "brightness(140%)"
+    filter: "brightness(170%)"
   },
   imgRaised: {
     boxShadow:
