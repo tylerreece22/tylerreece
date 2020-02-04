@@ -80,7 +80,7 @@ function HeaderLinks({...props}) {
                         color="transparent"
                         className={classes.navLink}
                     >
-                        <i className={classes.socialIcons + " fab fa-linkedin"}/>
+                        <i className={classes.socialIcons + " fab fa-linkedin"}/>{window.innerWidth > 959 ? null : "LinkedIn"}
                     </Button>
                 </Tooltip>
             </ListItem>
@@ -97,7 +97,7 @@ function HeaderLinks({...props}) {
                         target="_blank"
                         className={classes.navLink}
                     >
-                        <i className={classes.socialIcons + " fab fa-github"}/>
+                        <i className={classes.socialIcons + " fab fa-github"}/>{window.innerWidth > 959 ? null : "GitHub"}
                     </Button>
                 </Tooltip>
             </ListItem>
