@@ -14,7 +14,7 @@
     "font-awesome": "^4.7.0",
     "global": "^4.4.0",
     "history": "^4.7.2",
-    "markdown-to-jsx": "^6.9.0",
+    "markdown-to-jsx": "^6.11.4",
     "next": "^9.1.7",
     "prop-types": "^15.7.2",
     "react": "^16.7.0",
